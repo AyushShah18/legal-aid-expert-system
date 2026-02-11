@@ -6,14 +6,8 @@ import spacy
 import re
 from typing import List, Optional
 
-# Load spaCy model for NLP processing
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    # If model not found, download it
-    import subprocess
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")
+# Use a lightweight spaCy English tokenizer (no external model download needed)
+nlp = spacy.blank("en")
 
 app = FastAPI(title="Legal Aid Expert System", version="1.0.0")
 
@@ -61,25 +55,21 @@ class ScenarioResponse(BaseModel):
 RULES = load_rules()
 
 def extract_keywords(text: str) -> List[str]:
-    """Extract keywords from text using spaCy NLP"""
+    """Extract keywords from text using spaCy tokenizer (no heavy model)."""
     doc = nlp(text.lower())
-    
-    # Extract nouns, verbs, and adjectives
-    keywords = []
+
+    keywords = set()
+
     for token in doc:
-        if token.pos_ in ['NOUN', 'VERB', 'ADJ'] and not token.is_stop:
-            keywords.append(token.lemma_)
-    
-    # Also extract multi-word phrases
-    for chunk in doc.noun_chunks:
-        keywords.append(chunk.text.lower())
-    
-    # Add original words for better matching
-    for token in doc:
-        if not token.is_stop and len(token.text) > 2:
-            keywords.append(token.text.lower())
-    
-    return list(set(keywords))
+        # Skip spaces/punctuation and very short/common words
+        if token.is_space or not token.text.isalpha() or len(token.text) <= 2:
+            continue
+
+        # Use token text as basic keyword (spaCy blank model still has stop_words)
+        if not token.is_stop:
+            keywords.add(token.text.lower())
+
+    return list(keywords)
 
 def calculate_similarity(query_keywords: List[str], rule_keywords: List[str]) -> float:
     """Calculate similarity between query keywords and rule keywords"""
