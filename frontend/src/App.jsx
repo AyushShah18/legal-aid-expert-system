@@ -137,7 +137,7 @@ function App() {
        }
        // For family law, contract law, personal injury, etc. - let backend handle with fallback response
 
-      const response = await axios.post('http://localhost:8000/query', {
+      const response = await axios.post(`${API_BASE}/query`, {
         category: category,
         query: inputMessage
       });
@@ -206,7 +206,7 @@ function App() {
     
     try {
       console.log('Fetching scenarios for category:', category);
-      const response = await axios.post('http://localhost:8000/scenarios', {
+      const response = await axios.post(`${API_BASE}/scenarios`, {
         category: category
       });
       console.log('Scenarios received:', response.data.scenarios);
