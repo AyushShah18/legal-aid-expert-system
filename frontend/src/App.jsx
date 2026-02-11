@@ -17,6 +17,7 @@ function App() {
   const messagesEndRef = useRef(null);
 
   const categories = ['All', 'Housing', 'Employment', 'Consumer'];
+  const API_BASE = 'https://legal-aid-expert-system.onrender.com';
 
   const testCases = {
     'Housing': [
