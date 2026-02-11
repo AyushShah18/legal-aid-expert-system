@@ -1,0 +1,912 @@
+[
+  {
+    "rule_id": "H001",
+    "category": "Housing",
+    "keywords": ["landlord", "evict", "eviction", "notice", "renovate", "renovation", "terminate", "tenancy", "renovation eviction", "demolition", "conversion", "major renovation", "proper notice", "compensation", "120 days", "three months rent", "landlord dispute", "tenant rights", "rental issues", "eviction notice", "renovation eviction", "building renovation", "major repairs", "tenant protection", "residential tenancy", "housing rights"],
+    "scenarios": [
+      {
+        "title": "Eviction for Renovation",
+        "query": "My landlord is trying to evict me without proper notice. I have been paying rent on time but they say they want to renovate. What are my rights as a tenant?",
+        "description": "Landlord wants to renovate and evict tenant"
+      },
+      {
+        "title": "No Notice Eviction",
+        "query": "My landlord gave me only 7 days to move out. They didn't provide any written notice or reason. Is this legal?",
+        "description": "Landlord evicting without proper notice"
+      },
+      {
+        "title": "Renovation Without Compensation",
+        "query": "My landlord wants to renovate the building and is asking all tenants to leave but offering no compensation. What are my rights?",
+        "description": "Renovation eviction without compensation"
+      }
+    ],
+    "answer": "Tenant rights are strongly protected under residential tenancy laws. Landlords cannot simply evict tenants for renovations without following strict legal procedures, providing proper notice, and often paying compensation. You have significant protections against unfair eviction.",
+    "suggestion": "Document all communications with your landlord. Send a formal request for written notice citing the specific legal grounds. Contact your local tenant rights organization for immediate assistance. Consider filing a complaint with the Residential Tenancy Branch if proper procedures aren't followed.",
+    "reasoning": "Your query contains keywords related to eviction and renovation, which triggers protections under residential tenancy legislation.",
+    "applicable_laws": [
+      {
+        "name": "Residential Tenancies Act",
+        "section": "Section 48 & 49",
+        "description": "A landlord may terminate a tenancy for the purpose of demolition, conversion, or major renovation only if they provide proper notice and compensation. The tenant must receive 120 days written notice and may be entitled to compensation equal to three months rent."
+      },
+      {
+        "name": "Tenant Protection Act",
+        "section": "Section 21",
+        "description": "Tenants have the right to security of tenure and cannot be evicted without proper legal grounds. Landlords must follow prescribed procedures and provide adequate notice periods based on the reason for termination."
+      },
+      {
+        "name": "Housing Standards Act",
+        "section": "Part III",
+        "description": "Landlords must maintain rental properties in good repair and comply with health and safety standards. Tenants can file complaints for violations and may be entitled to rent reductions or compensation."
+      }
+    ],
+    "action_plan": [
+      "Immediately document all communications with your landlord",
+      "Request written notice citing specific legal grounds for eviction",
+      "Contact local tenant rights organization for guidance",
+      "File complaint with Residential Tenancy Branch if procedures violated",
+      "Consider legal representation if facing immediate eviction",
+      "Gather evidence of rent payments and property condition"
+    ]
+  },
+  {
+    "rule_id": "H002",
+    "category": "Housing",
+    "keywords": ["deposit", "security deposit", "return", "deduct", "damage", "move out", "vacate", "withhold", "itemized", "deductions", "receipts", "30 days", "normal wear and tear", "cleaning costs", "repair costs", "security deposit", "deposit return", "deposit deductions", "move out", "vacate", "landlord withholding", "deposit dispute", "cleaning charges", "damage charges", "deposit refund"],
+    "scenarios": [
+      {
+        "title": "Deposit Not Returned",
+        "query": "My landlord didn't return my security deposit after I moved out. They claim there was damage but I left the place in perfect condition. What can I do?",
+        "description": "Landlord withholding security deposit"
+      },
+      {
+        "title": "Unfair Deductions",
+        "query": "My landlord deducted $500 from my deposit for 'cleaning' but I cleaned everything thoroughly. The place was spotless when I left.",
+        "description": "Excessive deductions from security deposit"
+      },
+      {
+        "title": "No Deposit Receipt",
+        "query": "I paid a security deposit but never received a receipt or documentation. Now my landlord claims I never paid it.",
+        "description": "Missing deposit documentation"
+      }
+    ],
+    "answer": "Landlords must return your security deposit within 30 days of vacating, minus any legitimate deductions for damages beyond normal wear and tear. They must provide an itemized list of deductions with receipts for any repairs or cleaning costs.",
+    "suggestion": "Send a formal demand letter for your deposit return. Request an itemized list of any deductions with supporting documentation. If no response within 30 days, file a complaint with the Residential Tenancy Branch. Consider small claims court for amounts over $5000.",
+    "reasoning": "Your query involves security deposit return issues, which are governed by specific tenancy laws requiring timely return and proper documentation of deductions.",
+    "applicable_laws": [
+      {
+        "name": "Residential Tenancies Act",
+        "section": "Section 38",
+        "description": "Landlords must return security deposits within 30 days of tenancy termination, minus any legitimate deductions for damages beyond normal wear and tear. Deductions must be itemized with supporting documentation."
+      },
+      {
+        "name": "Tenant Protection Act",
+        "section": "Section 15",
+        "description": "Security deposits are held in trust and can only be used for specific purposes including damage repair, unpaid rent, or cleaning costs beyond normal wear and tear."
+      }
+    ],
+    "action_plan": [
+      "Send formal demand letter for deposit return",
+      "Request itemized list of deductions with receipts",
+      "Document condition of property with photos",
+      "File complaint with Residential Tenancy Branch",
+      "Consider small claims court if necessary",
+      "Contact tenant rights organization for assistance"
+    ]
+  },
+  {
+    "rule_id": "H003",
+    "category": "Housing",
+    "keywords": ["rent increase", "rent hike", "rental increase", "unfair rent", "rent control", "excessive increase", "50 percent", "30 days notice", "90 days notice", "government guideline", "above guideline", "2.5 percent", "15 percent", "written notice", "rent increase", "rent hike", "rental hike", "unfair rent", "rent control", "excessive increase", "rent dispute", "rental dispute", "rental increase", "rental hike", "rental control", "rental guidelines", "rental regulations"],
+    "scenarios": [
+      {
+        "title": "Excessive Rent Increase",
+        "query": "My landlord increased my rent by 50% with only 30 days notice. This seems excessive and unfair. Do I have any legal protection?",
+        "description": "Unfair rent increase"
+      },
+      {
+        "title": "Rent Increase Without Notice",
+        "query": "My landlord told me my rent is going up next month but didn't give me any written notice. Is this legal?",
+        "description": "Rent increase without proper notice"
+      },
+      {
+        "title": "Above Guideline Increase",
+        "query": "My landlord wants to increase rent by 15% but the government guideline is only 2.5%. Can they do this?",
+        "description": "Rent increase above guideline"
+      }
+    ],
+    "answer": "Rent increases are regulated by provincial legislation. Landlords must provide proper written notice (typically 90 days) and increases are usually limited to government-set guidelines. Excessive increases may be challenged through the Residential Tenancy Branch.",
+    "suggestion": "Verify the rent increase against current guidelines. Request written notice if not provided. If the increase exceeds guidelines, file an application with the Residential Tenancy Branch to challenge it. Document all communications.",
+    "reasoning": "Your query involves rent increase regulations, which are subject to specific notice requirements and guideline limitations under tenancy law.",
+    "applicable_laws": [
+      {
+        "name": "Residential Tenancies Act",
+        "section": "Section 42",
+        "description": "Landlords must provide 90 days written notice for rent increases and increases are limited to the annual guideline set by the government, unless approved by the Residential Tenancy Branch."
+      },
+      {
+        "name": "Tenant Protection Act",
+        "section": "Section 12",
+        "description": "Rent increases must be reasonable and in accordance with established guidelines. Tenants have the right to challenge excessive increases through proper legal channels."
+      }
+    ],
+    "action_plan": [
+      "Verify rent increase against current guidelines",
+      "Request written notice if not provided",
+      "Document all communications with landlord",
+      "File application with Residential Tenancy Branch if excessive",
+      "Contact tenant rights organization for guidance",
+      "Consider legal representation if necessary"
+    ]
+  },
+  {
+    "rule_id": "E001",
+    "category": "Employment",
+    "keywords": ["fired", "terminated", "dismissed", "wrongful termination", "unfair dismissal", "severance", "no warning", "no explanation", "good performance", "performance reviews", "3 years", "on the spot", "immediately", "no notice", "no severance pay", "maternity leave", "discrimination", "restructuring", "wrongful termination", "unfair dismissal", "termination without cause", "fired without reason", "dismissed unfairly", "no severance", "no notice period", "performance issues", "work performance", "employment termination", "job termination", "work dismissal", "employment dismissal"],
+    "scenarios": [
+      {
+        "title": "Wrongful Termination",
+        "query": "I was fired from my job without any warning or explanation. I had been working there for 3 years with good performance reviews. Is this legal?",
+        "description": "Unfair dismissal without cause"
+      },
+      {
+        "title": "No Notice Period",
+        "query": "My employer fired me on the spot and told me to leave immediately. They didn't give me any notice or severance pay.",
+        "description": "Termination without notice or severance"
+      },
+      {
+        "title": "Discriminatory Firing",
+        "query": "I was fired after returning from maternity leave. My employer said it was due to 'restructuring' but I suspect it's discrimination.",
+        "description": "Potential discriminatory termination"
+      }
+    ],
+    "answer": "Employment termination must be for just cause or with proper notice/severance. Wrongful dismissal can result in significant compensation. Employers must provide reasonable notice or pay in lieu, especially for long-term employees.",
+    "suggestion": "Document all circumstances surrounding your termination. Request written reasons for dismissal. Contact an employment lawyer to assess your case. File a complaint with the Employment Standards Branch if minimum standards were violated.",
+    "reasoning": "Your query involves employment termination, which is governed by employment standards legislation and common law requiring proper notice or just cause for dismissal.",
+    "applicable_laws": [
+      {
+        "name": "Employment Standards Act",
+        "section": "Section 63",
+        "description": "Employers must provide written notice of termination or pay in lieu. Minimum notice periods vary by length of employment, with additional common law entitlements for long-term employees."
+      },
+      {
+        "name": "Human Rights Code",
+        "section": "Section 13",
+        "description": "Employment termination cannot be based on protected grounds such as age, gender, disability, or family status. Discriminatory termination is prohibited and can result in significant damages."
+      }
+    ],
+    "action_plan": [
+      "Document all termination circumstances",
+      "Request written reasons for dismissal",
+      "Contact employment lawyer for assessment",
+      "File complaint with Employment Standards Branch",
+      "Consider human rights complaint if discrimination suspected",
+      "Calculate proper notice/severance entitlements"
+    ]
+  },
+  {
+    "rule_id": "E002",
+    "category": "Employment",
+    "keywords": ["unpaid wages", "salary", "overtime", "pay", "wages", "payment", "2 months", "promising to pay", "50 hours", "40 hours", "salaried", "overtime doesn't apply", "training costs", "deducted", "paycheck", "without consent", "unauthorized deductions", "unpaid wages", "salary dispute", "overtime pay", "wage dispute", "payment issues", "unpaid salary", "unpaid overtime", "wage theft", "salary theft", "overtime theft", "wage dispute", "salary dispute", "payment dispute", "wage complaint", "salary complaint"],
+    "scenarios": [
+      {
+        "title": "Unpaid Wages",
+        "query": "My employer hasn't paid me for the last 2 months of work. They keep promising to pay but never do. What legal options do I have?",
+        "description": "Employer withholding wages"
+      },
+      {
+        "title": "Overtime Not Paid",
+        "query": "I work 50+ hours per week but my employer only pays me for 40 hours. They say I'm salaried so overtime doesn't apply. Is this correct?",
+        "description": "Unpaid overtime hours"
+      },
+      {
+        "title": "Deducted Wages",
+        "query": "My employer deducted money from my paycheck for 'training costs' without my consent. Can they do this?",
+        "description": "Unauthorized wage deductions"
+      }
+    ],
+    "answer": "Employers must pay all wages earned, including overtime, within specified timeframes. Unpaid wages can be recovered through the Employment Standards Branch or court action. Wage deductions require written consent except for legally required amounts.",
+    "suggestion": "Document all unpaid wages with timesheets and pay stubs. Send a formal demand letter for payment. File a complaint with the Employment Standards Branch. Consider legal action for amounts over $10,000.",
+    "reasoning": "Your query involves unpaid wages, which are protected under employment standards legislation requiring timely payment and prohibiting unauthorized deductions.",
+    "applicable_laws": [
+      {
+        "name": "Employment Standards Act",
+        "section": "Section 17",
+        "description": "Employers must pay all wages earned within specified timeframes. Overtime must be paid at premium rates for hours worked beyond standard work week."
+      },
+      {
+        "name": "Employment Standards Act",
+        "section": "Section 21",
+        "description": "Wage deductions require written consent except for legally required amounts such as taxes, EI, and CPP. Unauthorized deductions are prohibited."
+      }
+    ],
+    "action_plan": [
+      "Document all unpaid wages with evidence",
+      "Send formal demand letter for payment",
+      "File complaint with Employment Standards Branch",
+      "Consider legal action for large amounts",
+      "Contact employment lawyer if necessary",
+      "Report to Ministry of Labour if violations continue"
+    ]
+  },
+  {
+    "rule_id": "C001",
+    "category": "Consumer",
+    "keywords": ["defective", "product", "warranty", "return", "refund", "broken", "not working", "laptop", "2 months", "stopped working", "store refuses", "refund", "replacement", "water damage", "manufacturer", "warranty period", "not covered", "lost receipt", "proof of purchase", "defective product", "product warranty", "product return", "product refund", "broken product", "product not working", "warranty claim", "warranty denial", "product return", "product refund", "defective goods", "faulty product", "product defect", "warranty dispute", "return dispute", "refund dispute"],
+    "scenarios": [
+      {
+        "title": "Defective Product",
+        "query": "I bought a laptop that stopped working after 2 months. The store refuses to give me a refund or replacement. What are my consumer rights?",
+        "description": "Product stopped working shortly after purchase"
+      },
+      {
+        "title": "Warranty Denied",
+        "query": "My phone broke within the warranty period but the manufacturer says it's not covered because of 'water damage' that I didn't cause.",
+        "description": "Warranty claim denied unfairly"
+      },
+      {
+        "title": "No Receipt Return",
+        "query": "I want to return a defective item but lost the receipt. The store says they can't help me without proof of purchase.",
+        "description": "Return without receipt"
+      }
+    ],
+    "answer": "Consumers have rights under consumer protection laws for defective products. Merchants must provide refunds, replacements, or repairs for products that don't meet reasonable quality standards, regardless of warranty terms.",
+    "suggestion": "Document the defect with photos and videos. Request a refund or replacement in writing. If refused, file a complaint with your provincial consumer protection office. Consider small claims court for amounts under $35,000.",
+    "reasoning": "Your query involves consumer rights for defective products, which are protected under consumer protection legislation regardless of warranty terms.",
+    "applicable_laws": [
+      {
+        "name": "Consumer Protection Act",
+        "section": "Section 9",
+        "description": "Products must be of acceptable quality and fit for their intended purpose. Consumers have rights to refund, replacement, or repair for defective goods regardless of warranty terms."
+      },
+      {
+        "name": "Sale of Goods Act",
+        "section": "Section 15",
+        "description": "Goods sold must be of merchantable quality and fit for the purpose for which they are commonly used. Breach of these conditions entitles buyers to remedies."
+      }
+    ],
+    "action_plan": [
+      "Document the defect with evidence",
+      "Request refund/replacement in writing",
+      "File complaint with consumer protection office",
+      "Consider small claims court if necessary",
+      "Contact consumer advocacy organization",
+      "Review warranty terms and consumer rights"
+    ]
+  },
+  {
+    "rule_id": "C002",
+    "category": "Consumer",
+    "keywords": ["false advertising", "misleading", "advertisement", "claim", "promise", "not as advertised", "solve my problem", "doesn't work", "get money back", "free service", "monthly fees", "hidden fees", "clinically proven", "unsubstantiated claims", "advertising claims", "screenshots", "recordings", "false advertising", "misleading advertisement", "false claims", "false promises", "not as advertised", "advertising dispute", "false advertising", "misleading claims", "false promises", "advertising fraud", "false advertising", "misleading advertising", "false claims", "false promises", "advertising dispute", "false advertising claim", "misleading advertisement", "false advertising dispute"],
+    "scenarios": [
+      {
+        "title": "False Advertising",
+        "query": "I bought a product based on advertising that claimed it would solve my problem, but it doesn't work at all. Can I get my money back?",
+        "description": "Product doesn't work as advertised"
+      },
+      {
+        "title": "Hidden Fees",
+        "query": "I signed up for a service advertised as 'free' but they're charging me monthly fees that weren't mentioned in the ad.",
+        "description": "Hidden costs not disclosed in advertising"
+      },
+      {
+        "title": "Misleading Claims",
+        "query": "A company advertised their product as 'clinically proven' but I can't find any studies to support this claim.",
+        "description": "Unsubstantiated advertising claims"
+      }
+    ],
+    "answer": "False or misleading advertising is illegal under consumer protection laws. Consumers can seek refunds, damages, or file complaints with regulatory bodies. Advertisers must substantiate all claims and disclose material terms.",
+    "suggestion": "Document the advertising claims with screenshots or recordings. Request a refund based on false advertising. File a complaint with the Competition Bureau or provincial consumer protection office. Consider legal action for significant damages.",
+    "reasoning": "Your query involves false advertising, which is prohibited under consumer protection and competition laws requiring truthful and substantiated claims.",
+    "applicable_laws": [
+      {
+        "name": "Competition Act",
+        "section": "Section 52",
+        "description": "False or misleading advertising is prohibited. Advertisers must substantiate all claims and cannot make representations that are false or misleading in a material respect."
+      },
+      {
+        "name": "Consumer Protection Act",
+        "section": "Section 14",
+        "description": "Consumers have rights to accurate information about products and services. Misleading representations can result in remedies including refunds and damages."
+      }
+    ],
+    "action_plan": [
+      "Document advertising claims with evidence",
+      "Request refund based on false advertising",
+      "File complaint with Competition Bureau",
+      "Contact consumer protection office",
+      "Consider legal action for damages",
+      "Report to advertising standards council"
+    ]
+  },
+  {
+    "rule_id": "H004",
+    "category": "Housing",
+    "keywords": ["maintenance", "repair", "broken", "leak", "heating", "plumbing", "electrical", "habitable", "habitability", "mold", "pest", "infestation", "maintenance issues", "repair requests", "broken equipment", "water leak", "heating system", "plumbing problems", "electrical issues", "habitable conditions", "mold problems", "pest control", "infestation issues", "landlord neglect", "repair neglect", "maintenance neglect", "habitability issues", "repair issues"],
+    "scenarios": [
+      {
+        "title": "Broken Heating System",
+        "query": "My heating system has been broken for 2 weeks and my landlord won't fix it. It's winter and my apartment is freezing. What can I do?",
+        "description": "Landlord refusing to repair essential utilities"
+      },
+      {
+        "title": "Water Leak Not Fixed",
+        "query": "There's a water leak in my ceiling that's been dripping for months. I've asked my landlord to fix it multiple times but nothing happens.",
+        "description": "Landlord ignoring repair requests"
+      },
+      {
+        "title": "Mold and Health Issues",
+        "query": "There's black mold growing in my bathroom and it's affecting my health. My landlord says it's not their problem.",
+        "description": "Health hazard from landlord neglect"
+      }
+    ],
+    "answer": "Landlords have a legal obligation to maintain rental properties in habitable condition. Essential services like heating, plumbing, and electrical must be kept in good working order. Tenants can take legal action if repairs are not made promptly.",
+    "suggestion": "Document all repair requests in writing with dates. Give reasonable time for repairs (usually 24-48 hours for emergencies). If no action, contact your local building inspector or health department. Consider filing a complaint with the Residential Tenancy Branch.",
+    "reasoning": "Your query involves maintenance and habitability issues, which are governed by housing standards laws requiring landlords to maintain safe and habitable living conditions.",
+    "applicable_laws": [
+      {
+        "name": "Residential Tenancies Act",
+        "section": "Section 20",
+        "description": "Landlords must maintain rental units in a good state of repair and fit for habitation. Essential services must be provided and maintained in good working order."
+      },
+      {
+        "name": "Housing Standards Act",
+        "section": "Part II",
+        "description": "Rental properties must meet minimum health and safety standards. Landlords must address health hazards and maintain essential services."
+      },
+      {
+        "name": "Tenant Protection Act",
+        "section": "Section 8",
+        "description": "Tenants have the right to a habitable living environment. Landlords must make necessary repairs within reasonable timeframes."
+      }
+    ],
+    "action_plan": [
+      "Document all repair requests in writing",
+      "Take photos/videos of the problems",
+      "Contact building inspector for health hazards",
+      "File complaint with Residential Tenancy Branch",
+      "Consider rent reduction for uninhabitable conditions",
+      "Contact tenant rights organization for assistance"
+    ]
+  },
+  {
+    "rule_id": "E003",
+    "category": "Employment",
+    "keywords": ["discrimination", "harassment", "bullying", "racism", "sexism", "ageism", "disability", "pregnancy", "maternity", "religion", "sexual orientation", "gender identity"],
+    "scenarios": [
+      {
+        "title": "Workplace Discrimination",
+        "query": "My boss constantly makes racist comments and treats me differently because of my ethnicity. Other employees with similar qualifications get better opportunities.",
+        "description": "Racial discrimination in the workplace"
+      },
+      {
+        "title": "Pregnancy Discrimination",
+        "query": "After I announced my pregnancy, my employer started giving me fewer hours and important projects. They say it's 'for my own good' but I feel discriminated against.",
+        "description": "Discrimination based on pregnancy"
+      },
+      {
+        "title": "Disability Accommodation Denied",
+        "query": "I have a disability and requested reasonable accommodations, but my employer refused and said I should just 'work harder' like everyone else.",
+        "description": "Failure to accommodate disability"
+      }
+    ],
+    "answer": "Workplace discrimination based on protected grounds is illegal under human rights legislation. Employers must provide equal opportunities and reasonable accommodations. Discrimination can result in significant damages and reinstatement orders.",
+    "suggestion": "Document all incidents of discrimination with dates, witnesses, and evidence. File a complaint with your provincial human rights commission. Consider contacting an employment lawyer specializing in discrimination cases.",
+    "reasoning": "Your query involves workplace discrimination, which is prohibited under human rights legislation protecting employees from unfair treatment based on protected characteristics.",
+    "applicable_laws": [
+      {
+        "name": "Human Rights Code",
+        "section": "Section 13",
+        "description": "Employment discrimination based on race, gender, age, disability, religion, or other protected grounds is prohibited. Employers must provide equal opportunities and reasonable accommodations."
+      },
+      {
+        "name": "Employment Standards Act",
+        "section": "Section 2",
+        "description": "Employers must provide a workplace free from discrimination and harassment. All employees must be treated fairly regardless of personal characteristics."
+      }
+    ],
+    "action_plan": [
+      "Document all discriminatory incidents",
+      "Gather evidence and witness statements",
+      "File complaint with human rights commission",
+      "Contact employment lawyer specializing in discrimination",
+      "Consider internal complaint procedures",
+      "Document impact on work performance"
+    ]
+  },
+  {
+    "rule_id": "E004",
+    "category": "Employment",
+    "keywords": ["overtime", "extra hours", "work hours", "time and a half", "double time", "shift work", "on-call", "standby", "overtime pay", "work week"],
+    "scenarios": [
+      {
+        "title": "Unpaid Overtime Hours",
+        "query": "I regularly work 50+ hours per week but my employer only pays me for 40 hours. They say I'm 'exempt' from overtime but I'm not a manager.",
+        "description": "Employer refusing to pay overtime"
+      },
+      {
+        "title": "On-Call Without Pay",
+        "query": "My employer expects me to be on-call 24/7 but doesn't pay me for this time. I have to stay near my phone and can't make plans.",
+        "description": "Unpaid on-call time"
+      },
+      {
+        "title": "Shift Work Overtime",
+        "query": "I work rotating shifts and often work more than 8 hours in a day, but my employer says overtime only applies after 40 hours per week.",
+        "description": "Daily overtime not being paid"
+      }
+    ],
+    "answer": "Overtime pay is required for hours worked beyond standard work periods. Most employees are entitled to overtime pay unless specifically exempt under employment standards legislation. On-call time may also be compensable depending on restrictions.",
+    "suggestion": "Document all hours worked including overtime. Check your employment classification for overtime exemptions. File a complaint with the Employment Standards Branch for unpaid overtime. Consider legal action for significant amounts.",
+    "reasoning": "Your query involves overtime pay requirements, which are governed by employment standards legislation requiring compensation for hours worked beyond standard work periods.",
+    "applicable_laws": [
+      {
+        "name": "Employment Standards Act",
+        "section": "Section 17",
+        "description": "Overtime pay at premium rates is required for hours worked beyond the standard work week. Daily overtime may also apply depending on jurisdiction."
+      },
+      {
+        "name": "Employment Standards Act",
+        "section": "Section 22",
+        "description": "On-call time may be compensable if it significantly restricts personal activities. Employees must be paid for time spent primarily for the employer's benefit."
+      }
+    ],
+    "action_plan": [
+      "Document all hours worked with evidence",
+      "Check employment classification for exemptions",
+      "File complaint with Employment Standards Branch",
+      "Calculate unpaid overtime amounts",
+      "Consider legal action for large amounts",
+      "Contact employment lawyer if necessary"
+    ]
+  },
+  {
+    "rule_id": "C003",
+    "category": "Consumer",
+    "keywords": ["service", "poor service", "bad service", "refund", "cancellation", "contract", "agreement", "subscription", "membership", "gym", "cleaning", "repair service"],
+    "scenarios": [
+      {
+        "title": "Poor Cleaning Service",
+        "query": "I hired a cleaning service but they did a terrible job and left my house messier than before. They refuse to refund my money or redo the work.",
+        "description": "Poor quality service not remedied"
+      },
+      {
+        "title": "Gym Membership Cancellation",
+        "query": "I want to cancel my gym membership but they're charging me a huge cancellation fee that wasn't clearly explained when I signed up.",
+        "description": "Unfair cancellation fees"
+      },
+      {
+        "title": "Repair Service Not Completed",
+        "query": "I paid a contractor to fix my roof but they only did half the work and left. They won't return my calls or complete the job.",
+        "description": "Incomplete repair service"
+      }
+    ],
+    "answer": "Service providers must deliver services as promised and to reasonable quality standards. Consumers have rights to refunds, re-performance, or compensation for poor service. Unfair contract terms may be unenforceable.",
+    "suggestion": "Document the poor service with photos and evidence. Request a refund or re-performance in writing. If refused, file a complaint with your provincial consumer protection office. Consider small claims court for significant amounts.",
+    "reasoning": "Your query involves service quality issues, which are protected under consumer protection laws requiring services to meet reasonable quality standards and fulfill contractual obligations.",
+    "applicable_laws": [
+      {
+        "name": "Consumer Protection Act",
+        "section": "Section 9",
+        "description": "Services must be performed with reasonable care and skill. Consumers have rights to refunds or re-performance for poor quality services."
+      },
+      {
+        "name": "Sale of Goods Act",
+        "section": "Section 15",
+        "description": "Services must be performed with reasonable care and skill and be fit for their intended purpose. Breach entitles consumers to remedies."
+      }
+    ],
+    "action_plan": [
+      "Document poor service with evidence",
+      "Request refund or re-performance in writing",
+      "File complaint with consumer protection office",
+      "Consider small claims court if necessary",
+      "Contact consumer advocacy organization",
+      "Review contract terms and consumer rights"
+    ]
+  },
+  {
+    "rule_id": "C004",
+    "category": "Consumer",
+    "keywords": ["contract", "agreement", "cancel", "cancellation", "termination", "early termination", "penalty", "fee", "subscription", "membership", "service agreement"],
+    "scenarios": [
+      {
+        "title": "Early Contract Termination",
+        "query": "I want to cancel my internet contract early but they're charging me a $200 early termination fee. The contract doesn't clearly explain this penalty.",
+        "description": "Unclear early termination penalties"
+      },
+      {
+        "title": "Hidden Contract Terms",
+        "query": "I signed up for a service but later found out there are hidden fees and terms that weren't explained to me when I signed the contract.",
+        "description": "Hidden terms in service contract"
+      },
+      {
+        "title": "Unfair Contract Renewal",
+        "query": "My service contract automatically renewed for another year without my consent. I didn't receive any notice about the renewal.",
+        "description": "Automatic contract renewal without notice"
+      }
+    ],
+    "answer": "Consumer contracts must have clear, understandable terms and cannot contain unfair penalties or hidden clauses. Automatic renewals require proper notice, and early termination fees must be reasonable and clearly disclosed.",
+    "suggestion": "Review your contract terms carefully. Request clarification of any unclear terms. If terms are unfair, file a complaint with consumer protection authorities. Consider legal advice for complex contract issues.",
+    "reasoning": "Your query involves contract terms and cancellation rights, which are protected under consumer protection laws requiring fair and transparent contract terms.",
+    "applicable_laws": [
+      {
+        "name": "Consumer Protection Act",
+        "section": "Section 14",
+        "description": "Contract terms must be clear and understandable. Unfair terms may be unenforceable. Automatic renewals require proper notice."
+      },
+      {
+        "name": "Competition Act",
+        "section": "Section 52",
+        "description": "Business practices must not be misleading or deceptive. Hidden fees and unclear terms may violate consumer protection standards."
+      }
+    ],
+    "action_plan": [
+      "Review contract terms carefully",
+      "Request clarification of unclear terms",
+      "File complaint with consumer protection office",
+      "Consider legal advice for complex issues",
+      "Document all communications",
+      "Review consumer rights and protections"
+    ]
+  },
+  {
+    "rule_id": "H005",
+    "category": "Housing",
+    "keywords": ["noise", "complaint", "neighbor", "disturbance", "quiet enjoyment", "peaceful", "loud", "music", "party", "construction"],
+    "scenarios": [
+      {
+        "title": "Noisy Neighbors",
+        "query": "My neighbors are constantly making loud noise late at night. I've complained to my landlord but nothing changes. What can I do?",
+        "description": "Excessive noise from neighbors"
+      },
+      {
+        "title": "Construction Noise",
+        "query": "My landlord is doing construction work during quiet hours. The noise is unbearable and affecting my sleep.",
+        "description": "Construction noise during quiet hours"
+      }
+    ],
+    "answer": "Tenants have the right to quiet enjoyment of their rental unit. Landlords must address noise complaints and ensure reasonable quiet hours are maintained. Excessive noise can constitute a breach of the lease agreement.",
+    "suggestion": "Document all noise incidents with dates and times. File formal complaints with your landlord in writing. Contact local noise enforcement if the issue persists. Consider filing a complaint with the Residential Tenancy Branch.",
+    "reasoning": "Your query involves noise complaints and quiet enjoyment rights, which are protected under residential tenancy laws requiring landlords to maintain habitable living conditions.",
+    "applicable_laws": [
+      {
+        "name": "Residential Tenancies Act",
+        "section": "Section 23",
+        "description": "Tenants have the right to quiet enjoyment of their rental unit. Landlords must not interfere with this right and must address disturbances from other tenants."
+      },
+      {
+        "name": "Municipal Noise Bylaws",
+        "section": "General",
+        "description": "Most municipalities have noise bylaws that prohibit excessive noise during quiet hours, typically 10 PM to 7 AM."
+      }
+    ],
+    "action_plan": [
+      "Document all noise incidents with evidence",
+      "File formal complaints with landlord in writing",
+      "Contact local noise enforcement authorities",
+      "File complaint with Residential Tenancy Branch",
+      "Consider mediation services",
+      "Document impact on quality of life"
+    ]
+  },
+  {
+    "rule_id": "H006",
+    "category": "Housing",
+    "keywords": ["pets", "pet policy", "no pets", "service animal", "emotional support", "pet deposit", "pet rent"],
+    "scenarios": [
+      {
+        "title": "Pet Policy Dispute",
+        "query": "My landlord says no pets are allowed, but I have a service animal. Can they refuse to rent to me?",
+        "description": "Service animal accommodation dispute"
+      },
+      {
+        "title": "Pet Deposit Increase",
+        "query": "My landlord increased my pet deposit from $200 to $500. Is this legal?",
+        "description": "Excessive pet deposit increase"
+      }
+    ],
+    "answer": "Service animals and emotional support animals are protected under human rights legislation and cannot be refused. Landlords can set reasonable pet policies but must accommodate legitimate service animals. Pet deposits must be reasonable and clearly stated in the lease.",
+    "suggestion": "Provide documentation of your service animal's training and purpose. Request reasonable accommodation in writing. If refused, file a complaint with your provincial human rights commission. Document all communications.",
+    "reasoning": "Your query involves pet policies and service animal accommodation, which are protected under human rights legislation and residential tenancy laws.",
+    "applicable_laws": [
+      {
+        "name": "Human Rights Code",
+        "section": "Section 13",
+        "description": "Service animals and emotional support animals must be accommodated as they are necessary for disability-related needs. Refusal may constitute discrimination."
+      },
+      {
+        "name": "Residential Tenancies Act",
+        "section": "Section 18",
+        "description": "Landlords can set reasonable pet policies but must not discriminate against tenants with legitimate service animals."
+      }
+    ],
+    "action_plan": [
+      "Provide service animal documentation",
+      "Request accommodation in writing",
+      "File human rights complaint if refused",
+      "Contact disability rights organizations",
+      "Document all communications",
+      "Consider legal representation if necessary"
+    ]
+  },
+  {
+    "rule_id": "H007",
+    "category": "Housing",
+    "keywords": ["sublet", "sublease", "assign", "assignment", "roommate", "guest", "unauthorized occupant"],
+    "scenarios": [
+      {
+        "title": "Subletting Rights",
+        "query": "I want to sublet my apartment for 3 months while I'm away. My landlord is refusing. What are my rights?",
+        "description": "Landlord refusing sublet request"
+      },
+      {
+        "title": "Roommate Addition",
+        "query": "I want to add a roommate to help with rent. My landlord says it's not allowed. Can they do this?",
+        "description": "Landlord refusing roommate addition"
+      }
+    ],
+    "answer": "Tenants generally have the right to sublet or assign their lease with landlord consent, which cannot be unreasonably withheld. Adding roommates may require landlord approval but cannot be arbitrarily denied. The landlord must have reasonable grounds for refusal.",
+    "suggestion": "Submit your sublet request in writing with details about the proposed tenant. If refused, request written reasons for the refusal. If the refusal is unreasonable, file a complaint with the Residential Tenancy Branch.",
+    "reasoning": "Your query involves subletting and assignment rights, which are protected under residential tenancy laws requiring landlords to reasonably consider such requests.",
+    "applicable_laws": [
+      {
+        "name": "Residential Tenancies Act",
+        "section": "Section 34",
+        "description": "Tenants may sublet or assign their lease with landlord consent, which cannot be unreasonably withheld. Landlords must respond within reasonable timeframes."
+      },
+      {
+        "name": "Tenant Protection Act",
+        "section": "Section 16",
+        "description": "Landlords must have reasonable grounds for refusing sublet or assignment requests and cannot arbitrarily deny such arrangements."
+      }
+    ],
+    "action_plan": [
+      "Submit sublet request in writing",
+      "Provide details about proposed tenant",
+      "Request written reasons if refused",
+      "File complaint if refusal unreasonable",
+      "Consider mediation services",
+      "Document all communications"
+    ]
+  },
+  {
+    "rule_id": "E005",
+    "category": "Employment",
+    "keywords": ["harassment", "bullying", "hostile work environment", "verbal abuse", "intimidation", "threats", "workplace violence"],
+    "scenarios": [
+      {
+        "title": "Workplace Harassment",
+        "query": "My coworker constantly makes inappropriate comments and jokes. I've complained to HR but nothing changes. What can I do?",
+        "description": "Ongoing workplace harassment"
+      },
+      {
+        "title": "Bullying by Supervisor",
+        "query": "My supervisor constantly criticizes my work unfairly and makes me feel worthless. This is affecting my mental health.",
+        "description": "Supervisor bullying and intimidation"
+      }
+    ],
+    "answer": "Workplace harassment and bullying are illegal under occupational health and safety and human rights legislation. Employers have a legal duty to provide a safe work environment free from harassment. You have the right to work without fear of intimidation or abuse.",
+    "suggestion": "Document all incidents of harassment with dates, witnesses, and details. File formal complaints with HR and management. If no action, contact your provincial occupational health and safety authority. Consider legal representation.",
+    "reasoning": "Your query involves workplace harassment, which is prohibited under occupational health and safety laws requiring employers to maintain safe work environments.",
+    "applicable_laws": [
+      {
+        "name": "Occupational Health and Safety Act",
+        "section": "Section 25",
+        "description": "Employers must take reasonable precautions to protect workers from workplace violence and harassment. Workers have the right to refuse unsafe work."
+      },
+      {
+        "name": "Human Rights Code",
+        "section": "Section 13",
+        "description": "Workplace harassment based on protected grounds is prohibited and can result in significant damages and reinstatement orders."
+      }
+    ],
+    "action_plan": [
+      "Document all harassment incidents",
+      "File formal complaints with HR",
+      "Contact occupational health and safety",
+      "Consider legal representation",
+      "Document impact on mental health",
+      "Keep copies of all communications"
+    ]
+  },
+  {
+    "rule_id": "E006",
+    "category": "Employment",
+    "keywords": ["sick leave", "medical leave", "disability leave", "doctor's note", "medical certificate", "absence", "illness"],
+    "scenarios": [
+      {
+        "title": "Sick Leave Denied",
+        "query": "My employer is refusing to approve my sick leave even though I have a doctor's note. They say I need to work anyway.",
+        "description": "Employer refusing sick leave"
+      },
+      {
+        "title": "Medical Certificate Required",
+        "query": "My employer wants a doctor's note for every sick day, even for minor illnesses. Is this legal?",
+        "description": "Excessive medical documentation requirements"
+      }
+    ],
+    "answer": "Employees have rights to sick leave and medical leave under employment standards legislation. Employers cannot force sick employees to work and must provide reasonable accommodation for medical conditions. Doctor's notes may be required for extended absences but not for every single sick day.",
+    "suggestion": "Provide medical documentation when required. If sick leave is unreasonably denied, file a complaint with the Employment Standards Branch. Document all communications and medical evidence.",
+    "reasoning": "Your query involves sick leave rights, which are protected under employment standards legislation requiring employers to provide reasonable accommodation for medical conditions.",
+    "applicable_laws": [
+      {
+        "name": "Employment Standards Act",
+        "section": "Section 50",
+        "description": "Employees are entitled to sick leave and medical leave. Employers must provide reasonable accommodation and cannot force sick employees to work."
+      },
+      {
+        "name": "Human Rights Code",
+        "section": "Section 13",
+        "description": "Employers must accommodate employees with disabilities and medical conditions to the point of undue hardship."
+      }
+    ],
+    "action_plan": [
+      "Provide required medical documentation",
+      "Request accommodation in writing",
+      "File complaint if leave denied",
+      "Document all communications",
+      "Contact employment standards branch",
+      "Consider legal representation if necessary"
+    ]
+  },
+  {
+    "rule_id": "E007",
+    "category": "Employment",
+    "keywords": ["workplace safety", "unsafe conditions", "dangerous work", "protective equipment", "safety training", "accident", "injury"],
+    "scenarios": [
+      {
+        "title": "Unsafe Working Conditions",
+        "query": "My workplace has dangerous equipment and no safety training. I'm afraid I'll get hurt. What are my rights?",
+        "description": "Dangerous workplace conditions"
+      },
+      {
+        "title": "No Safety Equipment",
+        "query": "My employer refuses to provide safety equipment even though I work with hazardous materials. Is this legal?",
+        "description": "Employer refusing safety equipment"
+      }
+    ],
+    "answer": "Workers have the right to a safe workplace under occupational health and safety legislation. Employers must provide proper training, safety equipment, and maintain safe working conditions. You have the right to refuse unsafe work and report safety violations.",
+    "suggestion": "Report safety concerns to your supervisor and health and safety representative. If no action, contact your provincial occupational health and safety authority. Document all safety violations and communications.",
+    "reasoning": "Your query involves workplace safety, which is protected under occupational health and safety laws requiring employers to maintain safe working conditions.",
+    "applicable_laws": [
+      {
+        "name": "Occupational Health and Safety Act",
+        "section": "Section 25",
+        "description": "Employers must take reasonable precautions to protect workers from workplace hazards and provide necessary safety equipment and training."
+      },
+      {
+        "name": "Workplace Safety and Insurance Act",
+        "section": "Section 32",
+        "description": "Workers have the right to refuse unsafe work and report safety violations without fear of reprisal."
+      }
+    ],
+    "action_plan": [
+      "Report safety concerns to supervisor",
+      "Contact health and safety representative",
+      "Report to occupational health and safety",
+      "Document all safety violations",
+      "Consider refusing unsafe work",
+      "Keep copies of all communications"
+    ]
+  },
+  {
+    "rule_id": "C005",
+    "category": "Consumer",
+    "keywords": ["online purchase", "internet shopping", "e-commerce", "website", "online store", "digital product", "download"],
+    "scenarios": [
+      {
+        "title": "Online Purchase Problem",
+        "query": "I bought something online but it never arrived. The company won't respond to my emails. What can I do?",
+        "description": "Online purchase not delivered"
+      },
+      {
+        "title": "Digital Product Refund",
+        "query": "I bought a digital product online but it doesn't work as described. The company says no refunds for digital products.",
+        "description": "Digital product not working"
+      }
+    ],
+    "answer": "Online purchases are protected under consumer protection laws. You have rights to refunds, replacements, or compensation for undelivered or defective products, including digital products. Distance selling regulations provide additional protections for online purchases.",
+    "suggestion": "Document all communications with the company. Request a refund or replacement in writing. If refused, file a complaint with your provincial consumer protection office. Consider disputing the charge with your credit card company.",
+    "reasoning": "Your query involves online consumer rights, which are protected under consumer protection laws and distance selling regulations requiring merchants to deliver products as promised.",
+    "applicable_laws": [
+      {
+        "name": "Consumer Protection Act",
+        "section": "Section 9",
+        "description": "Online purchases must be delivered as promised. Consumers have rights to refunds for undelivered or defective products, including digital products."
+      },
+      {
+        "name": "Distance Selling Regulations",
+        "section": "General",
+        "description": "Online merchants must provide clear information about products and delivery terms. Consumers have cancellation rights for distance sales."
+      }
+    ],
+    "action_plan": [
+      "Document all communications",
+      "Request refund or replacement in writing",
+      "File complaint with consumer protection office",
+      "Dispute charge with credit card company",
+      "Contact consumer advocacy organization",
+      "Consider small claims court if necessary"
+    ]
+  },
+  {
+    "rule_id": "C006",
+    "category": "Consumer",
+    "keywords": ["credit card", "debit card", "banking", "bank", "financial services", "banking fees", "unauthorized charges"],
+    "scenarios": [
+      {
+        "title": "Unauthorized Credit Card Charges",
+        "query": "I found charges on my credit card that I didn't make. The bank is refusing to investigate. What are my rights?",
+        "description": "Unauthorized credit card charges"
+      },
+      {
+        "title": "Excessive Banking Fees",
+        "query": "My bank is charging me excessive fees that weren't clearly explained when I opened my account. Can they do this?",
+        "description": "Hidden or excessive banking fees"
+      }
+    ],
+    "answer": "Credit card and banking consumers have strong protections under financial services legislation. Unauthorized charges must be investigated and removed. Banks must clearly disclose all fees and cannot charge excessive or hidden fees. You have rights to dispute charges and file complaints.",
+    "suggestion": "Immediately report unauthorized charges to your bank. Dispute charges in writing and keep copies. If the bank doesn't help, file a complaint with your provincial financial services regulator. Document all communications.",
+    "reasoning": "Your query involves financial services consumer rights, which are protected under financial services legislation requiring banks to investigate unauthorized charges and disclose all fees.",
+    "applicable_laws": [
+      {
+        "name": "Financial Services Act",
+        "section": "Section 12",
+        "description": "Banks must investigate unauthorized charges and cannot hold consumers liable for fraudulent transactions. All fees must be clearly disclosed."
+      },
+      {
+        "name": "Consumer Protection Act",
+        "section": "Section 14",
+        "description": "Financial institutions must provide clear information about all fees and charges. Hidden or excessive fees may be unenforceable."
+      }
+    ],
+    "action_plan": [
+      "Report unauthorized charges immediately",
+      "Dispute charges in writing",
+      "File complaint with financial regulator",
+      "Document all communications",
+      "Keep copies of all documents",
+      "Consider legal representation if necessary"
+    ]
+  },
+  {
+    "rule_id": "C007",
+    "category": "Consumer",
+    "keywords": ["travel", "vacation", "hotel", "airline", "flight", "booking", "cancellation", "refund", "trip"],
+    "scenarios": [
+      {
+        "title": "Flight Cancellation",
+        "query": "My flight was cancelled and the airline is refusing to give me a refund. They only offered a credit for future travel. What are my rights?",
+        "description": "Airline refusing refund for cancelled flight"
+      },
+      {
+        "title": "Hotel Booking Problem",
+        "query": "I booked a hotel but when I arrived, they said they were overbooked and couldn't accommodate me. What can I do?",
+        "description": "Hotel overbooking and refusal of service"
+      }
+    ],
+    "answer": "Travel consumers have rights under consumer protection laws and specific travel regulations. Airlines must provide refunds for cancelled flights, not just credits. Hotels must honor confirmed bookings and provide alternative accommodation if overbooked. You have rights to compensation for travel disruptions.",
+    "suggestion": "Request a full refund in writing, not just a credit. If refused, file a complaint with your provincial consumer protection office and the Canadian Transportation Agency. Document all communications and keep receipts.",
+    "reasoning": "Your query involves travel consumer rights, which are protected under consumer protection laws and travel regulations requiring service providers to honor bookings and provide refunds for cancellations.",
+    "applicable_laws": [
+      {
+        "name": "Air Passenger Protection Regulations",
+        "section": "Section 17",
+        "description": "Airlines must provide refunds for cancelled flights, not just credits. Passengers have rights to compensation for travel disruptions."
+      },
+      {
+        "name": "Consumer Protection Act",
+        "section": "Section 9",
+        "description": "Travel service providers must honor confirmed bookings and provide alternative accommodation or refunds if services cannot be provided."
+      }
+    ],
+    "action_plan": [
+      "Request full refund in writing",
+      "File complaint with consumer protection office",
+      "Contact Canadian Transportation Agency",
+      "Document all communications",
+      "Keep all receipts and documentation",
+      "Consider legal action if necessary"
+    ]
+  }
+] 
